@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="../css/flex.css">
+</head>
+<body>
+    <div class="container_principal">
+        <div class="area1">
+            <div class="main">
+                    <article>
+                        <h2>Flex</h2>
+                        <p>Atalho para as propriedades flex-grow, flex-shrink e flex-basis. Geralmente você verá a propriedade flex nos flex itens ao invés de cada um dos valores separados. <br>
+
+                        Para melhor consistência entre os browsers, é recomendado utilizar a propriedade flex ao invés de cada propriedade separada. <br>
+                            
+                        No exemplo é possível ver as mesmas configurações do exemplo do flex-basis porém agora utilizando apenas a propriedade flex.</p>
+                    <p>Alguns exemplos:</p>
+                    </article>
+                    </div>
+                </div>
+    
+                <div class="area2">
+                    <h1>flex: n 1 auto;</h1>
+                    <section class="container">
+                        <div class="item basis-auto">Palavra 1</div>
+                        <div class="item basis-auto">2</div>
+                        <div class="item basis-auto-grow-2">3</div>
+                        <div class="item basis-auto-width">4</div>
+                        <div class="item basis-auto-grow-0">5</div>
+                    </section>
+                    
+                    <h1>flex: 1;</h1>
+                    <section class="container">
+                        <div class="item basis-0">Test de Cont</div>
+                        <div class="item basis-0">2</div>
+                        <div class="item basis-0-grow-2">Palavra</div>
+                        <div class="item basis-0-width">4</div>
+                        <div class="item basis-0-grow-0">5</div>
+                    </section>
+                    
+                    <h1>flex: flex: 0 1 n;</h1>
+                    <section class="container basis-numero-container">
+                        <div class="item basis-110">1</div>
+                        <div class="item basis-110">12</div>
+                        <div class="item basis-110">12345678910</div>
+                        <div class="item basis-300">1234</div>
+                        <div class="item basis-110-porcento">1</div>
+                        <div class="item basis-110-porcento">12</div>
+                        <div class="item basis-110-porcento">123</div>
+                        <div class="item basis-110-porcento">1234</div>
+                    </section>
+                    
+                    <h1>flex: 0 1 n; // Diferente Conteúdo</h1>
+                    <section class="container basis-numero-container">
+                        <div class="item basis-110">Conteúdo Grande</div>
+                        <div class="item basis-110">PalavraMaior</div>
+                        <div class="item basis-110">Oi</div>
+                    </section>
+                    
+                    <h1>flex: 1 1 n; //</h1>
+                    <section class="container basis-numero-container">
+                        <div class="item basis-110-grow-1">1</div>
+                        <div class="item basis-110-grow-1">12</div>
+                        <div class="item basis-110-grow-1">1234</div>
+                        <div class="item basis-110-grow-1">12345</div>
+                        <div class="item basis-600-grow-1">5</div>
+                    </section>
+                </div>
+    
+            <footer>
+                <h2 class="h2_footer">Aprenda mais!</h2>
+                <div class="navegacao">
+                    <ol>
+                        <li><a href="..//html/flex-direction.html">➫ Flex-Direction</a></li>
+                        <li><a href="..//html/flex-wrap.html">➫ Flex-Wrap</a></li>
+                        <li><a href="..//html/flex-flow.html">➫ Flex-Flow</a></li>
+                        <li><a href="..//html/justify-content.html">➫ Justify-Content</a></li>
+                        <li><a href="../html/align-items.html">➫ Align-Items</a></li>
+                        <li><a href="..//html/align-content.html">➫ Align-Content</a></li>
+                        <li><a href="..//html/display.html">➫ Display</a></li>
+                    </ol>
+                </div>
+                <p>© Feito por Alyffer</p>
+            </footer>
+        </div>
+</body>
+</html>

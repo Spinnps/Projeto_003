@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* -------------------------- */
+
+
+body {
+    background-color: rgb(8, 8, 8);
+}
+
+h3 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+    color: rgb(255, 244, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+h1, h2, p {
+    font-family: "Poppins", sans-serif;
+    color: rgb(245, 237, 237);
+}
+
+
+/* ----------------------------- */
+
+.container_principal {
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.area1 {
+    background-color: #383838;
+    text-align: center;
+    border: 1px solid rgb(27, 25, 22);
+}
+
+.area2 {
+    background-color: #111;
+    border: 1px solid rgb(27, 25, 22);
+    padding: 20px;
+}
+
+
+/* ------------------------------ */
+
+.h2_footer {
+    color: #f7f9fa;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #383838;
+    padding: 1px;
+
+}
+
+.navegacao a, li{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #f0e6e6;
+}
+
+footer p{
+    color: #d1c8d1;
+    font-family: "Poppins", sans-serif;
+    text-align: end;
+    margin: 20px;
+}
+
+
+/* --------------------------------- */
+
+
+
+
+.basis-auto {
+	flex: 1 1 auto;
+}
+
+.basis-auto-grow-2 {
+	flex: 2 1 auto;
+}
+
+.basis-auto-width {
+	flex: 1 1 auto;
+	width: 60px;
+}
+
+.basis-auto-grow-0 {
+	flex: 0 1 auto;
+}
+
+
+.basis-0 {
+	flex: 1;
+}
+
+
+.basis-0-grow-2 {
+	flex: 2;
+}
+
+.basis-0-width {
+	flex: 1;
+	width: 120px;
+	min-width: 80px;
+}
+
+.basis-0-grow-0 {
+	flex: 0 1 0;
+}
+
+
+.basis-numero-container {
+	flex-wrap: wrap;
+}
+
+.basis-110 {
+	flex: 0 1 110px;
+}
+
+.basis-300 {
+	flex: 0 1 300px;
+}
+
+.basis-110-porcento {
+	flex: 0 1 calc(25% - 10px);
+}
+
+.basis-110-grow-1 {
+	flex: 1 1 110px;
+}
+
+.basis-600-grow-1 {
+	flex: 1 1 600px;
+}
+
+.item {
+	margin: 5px;
+	background: rgb(163, 165, 165);
+	text-align: center;
+	font-size: 1.5em;
+	position: relative;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
